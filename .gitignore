@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/discovered.csv
+data/metadata_deduplicated.csv
+data/raw/html/*
+data/raw/pdf/*
+data/extracted/*
+!data/raw/html/.gitkeep
+!data/raw/pdf/.gitkeep
+!data/extracted/.gitkeep

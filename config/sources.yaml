@@ -1,0 +1,48 @@
+# 公开网页入口。运行抓取前应人工确认页面仍可访问及其 robots.txt/使用条款。
+# crawler 仅跟踪与 start_urls 同域的 HTML/PDF 链接，不调用或假设统一 API。
+user_agent: "ShuanglaiPolicyCorpus/0.1 (+https://github.com/danielleduan/shuanglai-policy-corpus)"
+request_timeout_seconds: 20
+request_interval_seconds: 1.0
+max_response_bytes: 52428800
+keywords_file: keywords.txt
+
+sources:
+  - id: laixi_government
+    name: 莱西市人民政府
+    start_urls:
+      - "http://www.laixi.gov.cn/"
+    allowed_domains:
+      - "laixi.gov.cn"
+      - "www.laixi.gov.cn"
+    max_depth: 2
+    enabled: true
+
+  - id: laiyang_government
+    name: 莱阳市人民政府
+    start_urls:
+      - "http://www.laiyang.gov.cn/"
+    allowed_domains:
+      - "laiyang.gov.cn"
+      - "www.laiyang.gov.cn"
+    max_depth: 2
+    enabled: true
+
+  - id: qingdao_government
+    name: 青岛市人民政府
+    start_urls:
+      - "http://www.qingdao.gov.cn/"
+    allowed_domains:
+      - "qingdao.gov.cn"
+      - "www.qingdao.gov.cn"
+    max_depth: 1
+    enabled: true
+
+  - id: yantai_government
+    name: 烟台市人民政府
+    start_urls:
+      - "http://www.yantai.gov.cn/"
+    allowed_domains:
+      - "yantai.gov.cn"
+      - "www.yantai.gov.cn"
+    max_depth: 1
+    enabled: true
