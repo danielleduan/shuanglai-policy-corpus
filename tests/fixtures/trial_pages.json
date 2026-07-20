@@ -16,5 +16,35 @@
     "parent_column_url": "https://www.qingdao.gov.cn/zwgk/xxgk/fgw/ywfl/jjfz/",
     "discovery_method": "government_search_trial",
     "html": "<html><body><article><h1>山东莱西至荣成高速铁路开通运营</h1><p>发布日期：2023年12月11日 来源：青岛市发展和改革委员会</p><p>线路西起青岛莱西，经过烟台莱阳等地。开通后便利沿线往来，促进胶东经济圈一体化发展，构成跨市域交通互联的重要实施证据。</p></article></body></html>"
+  },
+  {
+    "url": "https://www.yantai.gov.cn/art/2023/7/3/art_108139_37.html",
+    "parent_column_url": "https://www.yantai.gov.cn/col/col108139/",
+    "discovery_method": "government_search_round_2",
+    "html": "<html><body><article><h1>烟台市国土空间总体规划（2021—2035年）</h1><p>发布日期：2023年7月3日 发布机构：烟台市人民政府</p><p>规划提出融入胶东经济圈空间格局，重点加强烟台与青岛协作，推进跨行政区域生态廊道、产业分工、基础设施互联和公共服务共享。</p></article></body></html>"
+  },
+  {
+    "url": "https://www.yantai.gov.cn/art/2022/11/22/art_99958_28659.html",
+    "parent_column_url": "https://www.yantai.gov.cn/col/col99958/",
+    "discovery_method": "government_search_round_2",
+    "html": "<html><body><article><h1>烟台市人民政府关于印发烟台市新型城镇化规划（2021—2035年）的通知</h1><p>发布日期：2022年11月22日 发布机构：烟台市人民政府 烟政发〔2022〕21号</p><p>规划以莱阳莱西一体化发展为支撑，建设中部城镇化提升发展带，并推动莱阳与青岛即墨等地区联动和交通产业衔接。</p></article></body></html>"
+  },
+  {
+    "url": "https://www.qingdao.gov.cn/ywdt/zwyw/202310/t20231014_7512491.shtml",
+    "parent_column_url": "https://www.qingdao.gov.cn/ywdt/zwyw/",
+    "discovery_method": "government_search_round_2",
+    "html": "<html><body><article><h1>省政府印发青岛都市圈发展规划</h1><p>发布日期：2023年10月14日 来源：青岛市人民政府</p><p>青岛都市圈由青岛及潍坊、日照、烟台相关地区组成，包括烟台莱阳市、莱州市和海阳市，推动产业协同、交通往来、公共服务共享和跨区域社会治理。</p></article></body></html>"
+  },
+  {
+    "url": "https://ytdangjian.yantai.gov.cn/col/col101308/art/2026/art_d10ef51ae45b479c89a129f3cfcd642c.html",
+    "parent_column_url": "https://ytdangjian.yantai.gov.cn/col/col101308/",
+    "discovery_method": "government_search_round_2",
+    "html": "<html><body><article><h1>中共烟台市委关于制定烟台市国民经济和社会发展第十五个五年规划的建议</h1><p>发布日期：2026年1月20日 来源：烟台市人民政府网站</p><p>建议提出融入胶东经济圈、联动青岛都市圈，依托丁字湾建设稳步推进莱阳和莱西一体发展，加强产业协作和跨区域联系。</p></article></body></html>"
+  },
+  {
+    "url": "https://www.yantai.gov.cn/cms_files/jcms1/web1/site/attach/0/cd168c54fe924af888a7030db38baa87.pdf",
+    "parent_column_url": "https://www.yantai.gov.cn/art/2023/7/3/art_108139_37.html",
+    "discovery_method": "attachment_following_round_2",
+    "html": "<html><body><article><h1>烟台市国土空间总体规划附件</h1><p>发布日期：2023年7月3日 发布机构：烟台市人民政府</p><p>附件专章部署胶东经济圈一体化协同发展，提出加强烟台与青岛协作及跨区域生态、交通、产业和公共服务协同。</p><a href='https://www.yantai.gov.cn/cms_files/jcms1/web1/site/attach/0/cd168c54fe924af888a7030db38baa87.pdf'>规划附件PDF</a></article></body></html>"
   }
 ]

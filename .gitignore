@@ -6,6 +6,7 @@ shuanglai-policy-corpus
 logs/*.log
 data/discovered.csv
 data/metadata_deduplicated.csv
+data/output/crawled.csv
 data/raw/html/*
 data/raw/pdf/*
 data/raw/files/*
