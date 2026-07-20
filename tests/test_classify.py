@@ -17,6 +17,17 @@ class ClassifyTests(unittest.TestCase):
         result = score_relevance("青岛都市圈发展规划", "加强烟台方向交通衔接，支持莱阳融入青岛都市圈。")
         self.assertIn(result["level"], ("B", "C"))
 
+    def test_qingdao_yantai_pair_is_retained_as_candidate(self):
+        result = score_relevance("区域发展动态", "青岛与烟台发布年度经济数据。")
+        self.assertEqual(result["level"], "C")
+        self.assertIn("宽口径", result["reason"])
+
+    def test_strategic_region_term_is_retained_without_city_names(self):
+        for term in ("青岛都市圈", "胶东经济圈", "山东半岛城市群"):
+            with self.subTest(term=term):
+                result = score_relevance(f"{term}建设进展", "推进区域协调发展。")
+                self.assertEqual(result["level"], "C")
+
     def test_irrelevant_integration_is_excluded(self):
         result = score_relevance("化工一体化项目公示", "某企业推进化工一体化建设。")
         self.assertEqual(result["level"], "D")

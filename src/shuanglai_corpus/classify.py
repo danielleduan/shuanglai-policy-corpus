@@ -33,20 +33,25 @@ def score_relevance(title: str, text: str) -> dict:
     score, reasons = 0, []
     if "莱西" in title and "莱阳" in title: score += 40; reasons.append("标题同时出现莱西和莱阳 +40")
     if "莱西" in body and "莱阳" in body: score += 25; reasons.append("正文同时出现莱西和莱阳 +25")
+    qingyan_pair = "青岛" in combined and "烟台" in combined
+    strategic_terms = _hits(combined, ["青岛都市圈", "胶东经济圈", "山东半岛城市群"])
     if "青岛" in title and "烟台" in title: score += 15; reasons.append("标题同时出现青岛和烟台 +15")
     if "青岛" in body and "烟台" in body: score += 10; reasons.append("正文同时出现青岛和烟台 +10")
     if relations: score += 15; reasons.append("出现跨域关系词 +15")
     if boundaries: score += 20; reasons.append("出现边界治理词 +20")
     if any(term in combined for term in ("先行区", "双莱", "莱西莱阳一体化", "莱阳莱西一体化")): score += 30; reasons.append("出现双莱/先行区高价值词 +30")
     if any(term in combined for term in ("共同项目", "共同园区", "交通互联", "跨域公共服务")): score += 20; reasons.append("出现共同项目或跨域服务 +20")
-    if any(term in combined for term in ("胶东经济圈", "青岛都市圈", "山东半岛城市群")): score += 10; reasons.append("出现上位区域战略 +10")
+    if strategic_terms: score += 10; reasons.append("出现上位区域战略 +10")
     excluded = any(term in combined for term in EXCLUSIONS) and not ({"莱西", "莱阳"} <= set(locations))
     accidental = bool(re.search(r"(?:地址|名单|籍贯|注册地).{0,20}(?:莱西|莱阳)", combined))
     if excluded or accidental:
         return {"level":"D", "score":0, "reason":"排除：无关一体化或偶然地名共现", "locations":locations, "relations":relations, "cross_boundary":""}
     if {"莱西", "莱阳"} <= set(locations) and relations: level = "A"
-    elif score >= 35 and (boundaries or any(x in combined for x in ("胶东经济圈", "青岛都市圈", "山东半岛城市群"))): level = "B"
+    elif score >= 35 and (boundaries or strategic_terms): level = "B"
     elif score >= 15 and locations: level = "C"
+    elif qingyan_pair or strategic_terms:
+        level = "C"
+        reasons.append("宽口径纳入青烟组合或上位区域战略候选")
     else: level = "D"
     return {"level":level, "score":min(score, 100), "reason":"；".join(reasons) or "缺少实质跨域关系", "locations":locations, "relations":relations, "cross_boundary":"|".join(boundaries)}
 
