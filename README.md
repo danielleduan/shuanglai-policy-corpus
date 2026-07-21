@@ -48,6 +48,9 @@ python scripts/shuanglai.py resume --limit 10
 
 # 受控小规模全流程
 python scripts/shuanglai.py run-all --limit 5
+
+# 定向下载已核验政策的完整原文与原始附件
+python scripts/fetch_verified_originals.py
 ```
 
 全量抓取前先以小 `--limit` 验证站点。真实运行会验证 `gov.cn` 域、遵守 `robots.txt`、限制同站频率，并记录失败；不会登录、绕过验证码或规避安全限制。遇到验证码时停止该来源，将记录送入人工复核，不尝试绕过。

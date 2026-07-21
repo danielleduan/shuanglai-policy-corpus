@@ -1,32 +1,32 @@
-﻿record_id,title,document_number,issuing_authority,joint_issuing_authorities,publication_date,effective_date,expiry_date,validity_status,administrative_level,document_type,formal_policy,material_category,topic,source_domain,source_page_url,attachment_url,parent_column_url,original_filename,file_format,full_text,text_length,summary,key_measures,relevant_regions,matched_keywords,relevance_level,relevance_score,relevance_reason,involved_regions,cross_boundary_relation,matched_location_terms,matched_relation_terms,discovery_method,crawl_time,content_sha256,parsing_status,review_status,duplicate_of,alternate_sources,error
-2e61ed54debaa172,莱西市国民经济和社会发展第十四个五年规划,,莱西市人民政府,,2021-11-30,,,,,规划,true,policy,规划与空间布局|公共服务|生态环境|重大项目,www.qingdao.gov.cn,https://www.qingdao.gov.cn/zwgk/xxgk/fgw/gkml/ghjh/202111/P020211130518780261672.pdf,https://www.qingdao.gov.cn/zwgk/xxgk/fgw/gkml/ghjh/202111/P020211130518780261672.pdf,https://www.qingdao.gov.cn/zwgk/xxgk/fgw/gkml/ghjh/,P020211130518780261672.pdf,html,"莱西市国民经济和社会发展第十四个五年规划
+﻿record_id,title,document_number,issuing_authority,joint_issuing_authorities,publication_date,effective_date,expiry_date,validity_status,administrative_level,document_type,formal_policy,material_category,topic,source_domain,source_page_url,attachment_url,parent_column_url,original_filename,file_format,local_raw_path,text_path,full_text,text_length,summary,key_measures,relevant_regions,matched_keywords,relevance_level,relevance_score,relevance_reason,involved_regions,cross_boundary_relation,matched_location_terms,matched_relation_terms,discovery_method,crawl_time,content_sha256,parsing_status,review_status,duplicate_of,alternate_sources,error
+2e61ed54debaa172,莱西市国民经济和社会发展第十四个五年规划,,莱西市人民政府,,2021-11-30,,,,,规划,true,policy,规划与空间布局|公共服务|生态环境|重大项目,www.qingdao.gov.cn,https://www.qingdao.gov.cn/zwgk/xxgk/fgw/gkml/ghjh/202111/P020211130518780261672.pdf,https://www.qingdao.gov.cn/zwgk/xxgk/fgw/gkml/ghjh/202111/P020211130518780261672.pdf,https://www.qingdao.gov.cn/zwgk/xxgk/fgw/gkml/ghjh/,P020211130518780261672.pdf,html,,,"莱西市国民经济和社会发展第十四个五年规划
 发布日期：2021年11月30日 发布机构：莱西市人民政府
 建设莱西莱阳一体化发展示范区，统筹两地空间布局、基础设施、产业发展、要素资源和生态保护，研究重大项目并推动公共服务共建共享。
 规划PDF",119,"莱西市国民经济和社会发展第十四个五年规划
 发布日期：2021年11月30日 发布机构：莱西市人民政府
 建设莱西莱阳一体化发展示范区，统筹两地空间布局、基础设施、产业发展、要素资源和生态保护，研究重大项目并推动公共服务共建共享。
 规划PDF",,莱西|莱阳,莱西|莱阳|共建|共享|一体化,A,70,正文同时出现莱西和莱阳 +25；出现跨域关系词 +15；出现双莱/先行区高价值词 +30,莱西|莱阳,,莱西|莱阳,共建|共享|一体化,government_search_trial,2026-07-21T00:00:00+08:00,63094e6b370c10620010b511e88195f8bcbf4648b5f9cfc43b255e9da0c5d94e,parsed,auto_classified,,,
-05916db95f780c00,烟台市国土空间总体规划（2021—2035年）,,烟台市人民政府,,2023-07-03,,,,,规划,true,policy,规划与空间布局|公共服务|胶东经济圈,www.yantai.gov.cn,https://www.yantai.gov.cn/art/2023/7/3/art_108139_37.html,,https://www.yantai.gov.cn/col/col108139/,,html,"烟台市国土空间总体规划（2021—2035年）
+05916db95f780c00,烟台市国土空间总体规划（2021—2035年）,,烟台市人民政府,,2023-07-03,,,,,规划,true,policy,规划与空间布局|公共服务|胶东经济圈,www.yantai.gov.cn,https://www.yantai.gov.cn/art/2023/7/3/art_108139_37.html,,https://www.yantai.gov.cn/col/col108139/,,html,,,"烟台市国土空间总体规划（2021—2035年）
 发布日期：2023年7月3日 发布机构：烟台市人民政府
 规划提出融入胶东经济圈空间格局，重点加强烟台与青岛协作，推进跨行政区域生态廊道、产业分工、基础设施互联和公共服务共享。",111,"烟台市国土空间总体规划（2021—2035年）
 发布日期：2023年7月3日 发布机构：烟台市人民政府
 规划提出融入胶东经济圈空间格局，重点加强烟台与青岛协作，推进跨行政区域生态廊道、产业分工、基础设施互联和公共服务共享。",,青岛|烟台|胶东经济圈,青岛|烟台|胶东经济圈|共享,B,35,正文同时出现青岛和烟台 +10；出现跨域关系词 +15；出现上位区域战略 +10,青岛|烟台|胶东经济圈,,青岛|烟台|胶东经济圈,共享,government_search_round_2,2026-07-21T00:00:00+08:00,db4b309543c68749388648f20bdb0ad5bb8d90d67af99a6ce8a70d79943acf6b,parsed,pending,,,
-e84fe72f33fddfe1,烟台市人民政府关于印发烟台市新型城镇化规划（2021—2035年）的通知,烟政发〔2022〕21号,烟台市人民政府 烟政发〔2022〕21号,,2022-11-22,,,,,规划,true,policy,规划与空间布局|交通互联,www.yantai.gov.cn,https://www.yantai.gov.cn/art/2022/11/22/art_99958_28659.html,,https://www.yantai.gov.cn/col/col99958/,,html,"烟台市人民政府关于印发烟台市新型城镇化规划（2021—2035年）的通知
+e84fe72f33fddfe1,烟台市人民政府关于印发烟台市新型城镇化规划（2021—2035年）的通知,烟政发〔2022〕21号,烟台市人民政府 烟政发〔2022〕21号,,2022-11-22,,,,,规划,true,policy,规划与空间布局|交通互联,www.yantai.gov.cn,https://www.yantai.gov.cn/art/2022/11/22/art_99958_28659.html,,https://www.yantai.gov.cn/col/col99958/,,html,,,"烟台市人民政府关于印发烟台市新型城镇化规划（2021—2035年）的通知
 发布日期：2022年11月22日 发布机构：烟台市人民政府 烟政发〔2022〕21号
 规划以莱阳莱西一体化发展为支撑，建设中部城镇化提升发展带，并推动莱阳与青岛即墨等地区联动和交通产业衔接。",132,"烟台市人民政府关于印发烟台市新型城镇化规划（2021—2035年）的通知
 发布日期：2022年11月22日 发布机构：烟台市人民政府 烟政发〔2022〕21号
 规划以莱阳莱西一体化发展为支撑，建设中部城镇化提升发展带，并推动莱阳与青岛即墨等地区联动和交通产业衔接。",,莱西|莱阳|青岛|烟台,莱西|莱阳|青岛|烟台|联动|衔接|一体化,A,80,正文同时出现莱西和莱阳 +25；正文同时出现青岛和烟台 +10；出现跨域关系词 +15；出现双莱/先行区高价值词 +30,莱西|莱阳|青岛|烟台,,莱西|莱阳|青岛|烟台,联动|衔接|一体化,government_search_round_2,2026-07-21T00:00:00+08:00,9b8ce85baf0371f3be7d0eb4e8cf81d4f026299b43dfab5238bf0f7f1a1d4cd7,parsed,auto_classified,,,
-db6bc54b69d1e672,省政府印发青岛都市圈发展规划,,青岛市人民政府,,2023-10-14,,,,,规划,true,policy,规划与空间布局|产业协同|交通互联|公共服务|青岛都市圈,www.qingdao.gov.cn,https://www.qingdao.gov.cn/ywdt/zwyw/202310/t20231014_7512491.shtml,,https://www.qingdao.gov.cn/ywdt/zwyw/,,html,"省政府印发青岛都市圈发展规划
+db6bc54b69d1e672,省政府印发青岛都市圈发展规划,,青岛市人民政府,,2023-10-14,,,,,规划,true,policy,规划与空间布局|产业协同|交通互联|公共服务|青岛都市圈,www.qingdao.gov.cn,https://www.qingdao.gov.cn/ywdt/zwyw/202310/t20231014_7512491.shtml,,https://www.qingdao.gov.cn/ywdt/zwyw/,,html,,,"省政府印发青岛都市圈发展规划
 发布日期：2023年10月14日 来源：青岛市人民政府
 青岛都市圈由青岛及潍坊、日照、烟台相关地区组成，包括烟台莱阳市、莱州市和海阳市，推动产业协同、交通往来、公共服务共享和跨区域社会治理。",110,"省政府印发青岛都市圈发展规划
 发布日期：2023年10月14日 来源：青岛市人民政府
 青岛都市圈由青岛及潍坊、日照、烟台相关地区组成，包括烟台莱阳市、莱州市和海阳市，推动产业协同、交通往来、公共服务共享和跨区域社会治理。",,莱阳|青岛|烟台|青岛都市圈,莱阳|青岛|烟台|青岛都市圈|协同|共享,B,35,正文同时出现青岛和烟台 +10；出现跨域关系词 +15；出现上位区域战略 +10,莱阳|青岛|烟台|青岛都市圈,,莱阳|青岛|烟台|青岛都市圈,协同|共享,government_search_round_2,2026-07-21T00:00:00+08:00,840ab137383911726f3a78a36ecdc10e0814e9f3a4d8efe4ff451f379e11ca4b,parsed,pending,,,
-984529eeaa945c10,中共烟台市委关于制定烟台市国民经济和社会发展第十五个五年规划的建议,,烟台市人民政府网站,,2026-01-20,,,,,规划,true,policy,规划与空间布局|胶东经济圈|青岛都市圈,ytdangjian.yantai.gov.cn,https://ytdangjian.yantai.gov.cn/col/col101308/art/2026/art_d10ef51ae45b479c89a129f3cfcd642c.html,,https://ytdangjian.yantai.gov.cn/col/col101308/,,html,"中共烟台市委关于制定烟台市国民经济和社会发展第十五个五年规划的建议
+984529eeaa945c10,中共烟台市委关于制定烟台市国民经济和社会发展第十五个五年规划的建议,,烟台市人民政府网站,,2026-01-20,,,,,规划,true,policy,规划与空间布局|胶东经济圈|青岛都市圈,ytdangjian.yantai.gov.cn,https://ytdangjian.yantai.gov.cn/col/col101308/art/2026/art_d10ef51ae45b479c89a129f3cfcd642c.html,,https://ytdangjian.yantai.gov.cn/col/col101308/,,html,,,"中共烟台市委关于制定烟台市国民经济和社会发展第十五个五年规划的建议
 发布日期：2026年1月20日 来源：烟台市人民政府网站
 建议提出融入胶东经济圈、联动青岛都市圈，依托丁字湾建设稳步推进莱阳和莱西一体发展，加强产业协作和跨区域联系。",117,"中共烟台市委关于制定烟台市国民经济和社会发展第十五个五年规划的建议
 发布日期：2026年1月20日 来源：烟台市人民政府网站
 建议提出融入胶东经济圈、联动青岛都市圈，依托丁字湾建设稳步推进莱阳和莱西一体发展，加强产业协作和跨区域联系。",,莱西|莱阳|青岛|烟台|胶东经济圈|青岛都市圈,莱西|莱阳|青岛|烟台|胶东经济圈|青岛都市圈|联动,A,60,正文同时出现莱西和莱阳 +25；正文同时出现青岛和烟台 +10；出现跨域关系词 +15；出现上位区域战略 +10,莱西|莱阳|青岛|烟台|胶东经济圈|青岛都市圈,,莱西|莱阳|青岛|烟台|胶东经济圈|青岛都市圈,联动,government_search_round_2,2026-07-21T00:00:00+08:00,10202395c2382b0ca220e12508b47ee7bd69014f06a3ecc2349c5a0d61007f06,parsed,auto_classified,,,
-cdbcd32a35731df0,烟台市国土空间总体规划附件,,烟台市人民政府,,2023-07-03,,,,,规划,true,policy,规划与空间布局|交通互联|公共服务|胶东经济圈,www.yantai.gov.cn,https://www.yantai.gov.cn/cms_files/jcms1/web1/site/attach/0/cd168c54fe924af888a7030db38baa87.pdf,https://www.yantai.gov.cn/cms_files/jcms1/web1/site/attach/0/cd168c54fe924af888a7030db38baa87.pdf,https://www.yantai.gov.cn/art/2023/7/3/art_108139_37.html,cd168c54fe924af888a7030db38baa87.pdf,html,"烟台市国土空间总体规划附件
+cdbcd32a35731df0,烟台市国土空间总体规划附件,,烟台市人民政府,,2023-07-03,,,,,规划,true,policy,规划与空间布局|交通互联|公共服务|胶东经济圈,www.yantai.gov.cn,https://www.yantai.gov.cn/cms_files/jcms1/web1/site/attach/0/cd168c54fe924af888a7030db38baa87.pdf,https://www.yantai.gov.cn/cms_files/jcms1/web1/site/attach/0/cd168c54fe924af888a7030db38baa87.pdf,https://www.yantai.gov.cn/art/2023/7/3/art_108139_37.html,cd168c54fe924af888a7030db38baa87.pdf,html,,,"烟台市国土空间总体规划附件
 发布日期：2023年7月3日 发布机构：烟台市人民政府
 附件专章部署胶东经济圈一体化协同发展，提出加强烟台与青岛协作及跨区域生态、交通、产业和公共服务协同。
 规划附件PDF",100,"烟台市国土空间总体规划附件

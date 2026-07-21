@@ -12,7 +12,7 @@ from shuanglai_corpus.schema import FIELDS, empty_record, validate_record, write
 class SchemaTests(unittest.TestCase):
     def test_required_fields_complete(self):
         self.assertEqual(validate_record(empty_record()), [])
-        for field in ("record_id", "relevance_level", "relevance_reason", "parsing_status", "review_status"):
+        for field in ("record_id", "local_raw_path", "text_path", "relevance_level", "relevance_reason", "parsing_status", "review_status"):
             self.assertIn(field, FIELDS)
 
     def test_csv_field_completeness(self):

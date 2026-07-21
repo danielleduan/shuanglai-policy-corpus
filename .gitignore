@@ -1,4 +1,6 @@
 .venv/
+.DS_Store
+**/.DS_Store
 __pycache__/
 *.py[cod]
 .pytest_cache/
@@ -7,6 +9,8 @@ logs/*.log
 data/discovered.csv
 data/metadata_deduplicated.csv
 data/output/crawled.csv
+data/output/verified_originals.csv
+data/output/verified_originals.jsonl
 data/raw/html/*
 data/raw/pdf/*
 data/raw/files/*
