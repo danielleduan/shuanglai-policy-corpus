@@ -1,0 +1,34 @@
+project:
+  user_agent: "ShuanglaiPolicyCorpus/0.2 (+https://github.com/danielleduan/shuanglai-policy-corpus)"
+  start_date: "2000-01-01"
+  end_date: null
+  request_interval_seconds: 1.5
+  request_timeout_seconds: 20
+  retries: 2
+  max_pages_per_source: 30
+  max_depth: 2
+  max_response_bytes: 52428800
+  output_dir: data/output
+  download_attachments: true
+  enable_playwright: false
+  refetch: false
+  log_level: INFO
+  obey_robots_txt: true
+
+# 入口为公开政府门户；运行前 crawler 会验证 gov.cn 域名、robots.txt 和重定向。
+# 同一注册域下的政府子域可自动发现，但仍受 allowed_domains 和 gov.cn 校验约束。
+sources:
+  - {id: shandong, name: 山东省人民政府, start_urls: ["https://www.shandong.gov.cn/"], allowed_domains: ["shandong.gov.cn"]}
+  - {id: shandong_fgw, name: 山东省发展和改革委员会, start_urls: ["https://fgw.shandong.gov.cn/"], allowed_domains: ["fgw.shandong.gov.cn", "shandong.gov.cn"]}
+  - {id: qingdao, name: 青岛市人民政府, start_urls: ["https://www.qingdao.gov.cn/"], allowed_domains: ["qingdao.gov.cn"]}
+  - {id: laixi, name: 莱西市人民政府, start_urls: ["https://www.laixi.gov.cn/"], allowed_domains: ["laixi.gov.cn"]}
+  - {id: yantai, name: 烟台市人民政府, start_urls: ["https://www.yantai.gov.cn/"], allowed_domains: ["yantai.gov.cn"]}
+  - {id: yantai_fgw, name: 烟台市发展和改革委员会, start_urls: ["https://fgw.yantai.gov.cn/"], allowed_domains: ["fgw.yantai.gov.cn", "yantai.gov.cn"]}
+  - {id: laiyang, name: 莱阳市人民政府, start_urls: ["https://www.laiyang.gov.cn/"], allowed_domains: ["laiyang.gov.cn", "yantai.gov.cn"]}
+
+search:
+  keywords_file: keywords.txt
+  relation_terms: [合作, 协同, 联动, 共建, 共享, 衔接, 互联互通, 跨域通办, 融合, 对接]
+  boundary_terms: [跨市域, 毗邻县域, 交界地区, 边界地区, 青烟交界, 青烟发展轴]
+  topic_terms: [规划, 国土空间, 交通, 公路, 铁路, 公交, 产业, 园区, 项目, 招商, 飞地, 平台公司, 政务服务, 教育, 医疗, 养老, 就业, 人才, 生态环境, 水资源, 流域治理, 河流, 应急管理, 市场监管, 要素保障, 土地, 财政]
+  exclusions: [化工一体化, 城乡公交一体化, 人物简历, 企业注册, 招聘名单]
